@@ -1,6 +1,6 @@
-# page_view_animation_demo
+# Wonderous App Clone
 
-A new Flutter project.
+I have used GetX for the routes management and Flutter for the Animations.
 
 ## Getting Started
 
