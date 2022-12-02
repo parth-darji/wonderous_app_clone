@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:wonderous_page_view_animation_demo/screens/onboarding_screen.dart';
-import 'package:wonderous_page_view_animation_demo/screens/splash_screen.dart';
 
 import '../screens/home_screen.dart';
+import '../screens/onboarding_screen.dart';
+import '../screens/splash_screen.dart';
 
 class Routes {
   static String splashScreen = '/splashScreen';

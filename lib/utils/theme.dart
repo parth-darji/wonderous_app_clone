@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wonderous_page_view_animation_demo/utils/colors.dart';
+
+import 'colors.dart';
 
 /// used to override default flutter light theme configuration
 ThemeData light() {

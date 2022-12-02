@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:wonderous_page_view_animation_demo/utils/routes.dart';
-import 'package:wonderous_page_view_animation_demo/utils/theme.dart';
+
+import 'utils/routes.dart';
+import 'utils/theme.dart';
 
 void main() {
   runApp(const MyApp());

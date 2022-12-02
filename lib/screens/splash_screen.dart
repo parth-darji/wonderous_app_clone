@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:wonderous_page_view_animation_demo/utils/asset_path.dart';
-import 'package:wonderous_page_view_animation_demo/utils/routes.dart';
+
+import '../utils/asset_path.dart';
+import '../utils/routes.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

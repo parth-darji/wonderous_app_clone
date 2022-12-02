@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.page_view_animation_demo">
+    package="com.example.wonderous_clone">
    <application
-        android:label="wonderous_page_view_animation_demo"
+        android:label="Wonderous Clone"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
