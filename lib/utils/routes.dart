@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:wonderous_page_view_animation_demo/screens/onboarding_screen.dart';
+import 'package:wonderous_page_view_animation_demo/screens/splash_screen.dart';
 
 import '../screens/home_screen.dart';
 
@@ -8,14 +10,14 @@ class Routes {
   static String homeScreen = '/homeScreen';
 }
 
-final getPages = [
+final pages = [
   GetPage(
     name: Routes.splashScreen,
-    page: () => const HomeScreen(),
+    page: () => const SplashScreen(),
   ),
   GetPage(
     name: Routes.onboardingScreen,
-    page: () => const HomeScreen(),
+    page: () => const OnboardingScreen(),
   ),
   GetPage(
     name: Routes.homeScreen,
