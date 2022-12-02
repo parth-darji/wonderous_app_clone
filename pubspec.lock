@@ -43,20 +43,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
-  equatable:
-    dependency: "direct main"
-    description:
-      name: equatable
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.5"
-  extra_alignments:
-    dependency: "direct main"
-    description:
-      name: extra_alignments
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0+1"
   fake_async:
     dependency: transitive
     description:
@@ -69,13 +55,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_animate:
-    dependency: "direct main"
-    description:
-      name: flutter_animate
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -88,39 +67,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_web_plugins:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.0"
-  gap:
+  get:
     dependency: "direct main"
     description:
-      name: gap
+      name: get
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.1"
-  get_it:
-    dependency: "direct main"
-    description:
-      name: get_it
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "7.2.0"
-  go_router:
-    dependency: "direct main"
-    description:
-      name: go_router
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "5.2.0"
-  js:
-    dependency: transitive
-    description:
-      name: js
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.6.4"
+    version: "4.6.5"
   lints:
     dependency: transitive
     description:
@@ -128,13 +81,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
-  logging:
-    dependency: transitive
-    description:
-      name: logging
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.0"
   matcher:
     dependency: transitive
     description:
@@ -163,32 +109,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.2"
-  rnd:
-    dependency: "direct main"
-    description:
-      name: rnd
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.2.0"
-  sized_context:
-    dependency: "direct main"
-    description:
-      name: sized_context
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0+1"
   sky_engine:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.99"
-  smooth_page_indicator:
-    dependency: "direct main"
-    description:
-      name: smooth_page_indicator
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0+2"
   source_span:
     dependency: transitive
     description:
@@ -231,13 +156,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.12"
-  universal_platform:
-    dependency: transitive
-    description:
-      name: universal_platform
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0+1"
   vector_math:
     dependency: transitive
     description:
@@ -247,4 +165,3 @@ packages:
     version: "2.1.2"
 sdks:
   dart: ">=2.18.5 <3.0.0"
-  flutter: ">=3.3.0"
