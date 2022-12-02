@@ -1,4 +1,4 @@
-package com.example.page_view_animation_demo
+package com.example.wonderous_clone
 
 import io.flutter.embedding.android.FlutterActivity
 
