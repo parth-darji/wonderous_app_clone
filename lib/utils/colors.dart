@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+bool isDark = false;
+
 /// use this class to apply theme colors
 class AppColors {
   static Color accent1 = const Color(0xFFE4935D);
@@ -11,4 +13,11 @@ class AppColors {
   static Color greyMedium = const Color(0xFF9D9995);
   static Color white = Colors.white;
   static Color black = const Color(0xFF1E1B18);
+
+  static Color shift(Color c, double d) => shiftHsl(c, d * (isDark ? -1 : 1));
+
+  static Color shiftHsl(Color c, [double amt = 0]) {
+    var hslc = HSLColor.fromColor(c);
+    return hslc.withLightness((hslc.lightness + amt).clamp(0.0, 1.0)).toColor();
+  }
 }

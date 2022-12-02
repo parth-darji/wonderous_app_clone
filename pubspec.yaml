@@ -35,7 +35,36 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+  # used for route management
   get: ^4.6.5
+
+  # used for animate prebuilt widgets
+  flutter_animate: ^2.0.1
+
+  # gskinner plugin to give alignment
+  extra_alignments: ^1.0.0+1
+
+  # plugin to add gaps between widgets
+  gap: ^2.0.1
+
+  # used to indicate page in onboarding screen
+  smooth_page_indicator: ^1.0.0+2
+
+  # gskinner package to work with random values
+  rnd: ^0.2.0
+
+  # used for bitmap descriptor
+  google_maps_flutter_platform_interface: ^2.2.4
+
+  # plugin to check internet connection
+  internet_connection_checker: ^1.0.0+1
+
+  # package to give mediaquery sizing info directly on build context
+  sized_context: ^1.0.0+1
+
+  # provider to manage state
+  provider: ^6.0.4
 
 dev_dependencies:
   flutter_test:
@@ -70,3 +99,33 @@ flutter:
     - assets/images/pyramids/
     - assets/images/taj_mahal/
     - assets/images/collectibles/
+
+  fonts:
+    - family: Cinzel
+      fonts:
+        - asset: assets/fonts/CinzelDecorative-Regular.ttf
+        - asset: assets/fonts/CinzelDecorative-Black.ttf
+        - asset: assets/fonts/CinzelDecorative-Bold.ttf
+    - family: Yeseva
+      fonts:
+        - asset: assets/fonts/YesevaOne-Regular.ttf
+    - family: Tenor
+      fonts:
+        - asset: assets/fonts/TenorSans-Regular.ttf
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Raleway-ExtraBold.ttf
+          weight: 800
+    - family: MaShanZheng
+      fonts:
+        - asset: assets/fonts/MaShanZheng-Regular.ttf
+    - family: B612Mono
+      fonts:
+        - asset: assets/fonts/B612Mono-Regular.ttf

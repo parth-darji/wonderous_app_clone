@@ -28,11 +28,12 @@ class _SplashScreenState extends State<SplashScreen> {
         isVisible = true;
       });
       await Future.delayed(
-        const Duration(seconds: 2),
+        const Duration(seconds: 3),
         () {
           Get.to(
             () => const OnboardingScreen(),
-            duration: const Duration(milliseconds: 1200),
+            duration: const Duration(milliseconds: 1500),
+            transition: Transition.fade,
           );
         },
       );
