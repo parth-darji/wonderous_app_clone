@@ -30,9 +30,9 @@ class _SplashScreenState extends State<SplashScreen> {
       await Future.delayed(
         const Duration(seconds: 3),
         () {
-          Get.to(
+          Get.off(
             () => const OnboardingScreen(),
-            duration: const Duration(milliseconds: 1500),
+            duration: const Duration(milliseconds: 1000),
             transition: Transition.fade,
           );
         },
