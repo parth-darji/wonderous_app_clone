@@ -50,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
           child: AnimatedOpacity(
             duration: const Duration(seconds: 1),
             opacity: isVisible ? 1 : 0,
-            child: Image.asset(Asset.appLogo),
+            child: Image.asset(ImagePaths.appLogo),
           ),
         ),
       ),

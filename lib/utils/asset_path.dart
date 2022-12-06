@@ -1,25 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platform_interface.dart';
-import 'package:wonderous_clone/utils/platform_info.dart';
 import 'enums.dart';
-
-String _images = 'assets/images/_common';
-
-class Asset {
-  static String appLogo = '$_images/app-logo.png';
-}
-
-/// Loads bitmap assets into memory that may be required later
-class AppBitmaps {
-  static late final BitmapDescriptor mapMarker;
-
-  static Future<void> init() async {
-    mapMarker = await BitmapDescriptor.fromAssetImage(
-      ImageConfiguration(devicePixelRatio: PlatformInfo.pixelRatio),
-      '${ImagePaths.common}/location-pin.png',
-    );
-  }
-}
 
 /// Consolidates raster image paths used across the app
 class ImagePaths {

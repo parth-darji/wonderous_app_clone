@@ -32,8 +32,6 @@ class _AppPageIndicatorState extends State<AppPageIndicator> {
     widget.controller.addListener(_handlePageChanged);
   }
 
-  // int get _controllerPage => _currentPage.value;
-
   void _handlePageChanged() {
     _currentPage.value = widget.controller.page!.round();
   }
